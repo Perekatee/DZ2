@@ -1,13 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        int ticket;
-        int mille;
-        int bonus;
+        int ticket = 56740;
+        int mille = 20;
+        int bonus = ticket / mille;
 
-        ticket = 56740;
-        mille = 20;
-        bonus = ticket/mille;
+
 
         System.out.println(bonus);
 
